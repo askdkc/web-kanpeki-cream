@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.venv/
+.tools/
+*.log
+.DS_Store
+.agenticreplay
+.modkh

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "waffle",
+    "name": "格子ワッフル",
+    "creamY": 0.1129,
+    "radius": 1.0,
+    "height": 0.1129,
+    "tris": 492
+  },
+  {
+    "id": "tart_shell",
+    "name": "焼きたてのタルト台",
+    "creamY": 0.1366,
+    "radius": 1.0,
+    "height": 0.3687,
+    "tris": 1466
+  },
+  {
+    "id": "blueberry",
+    "name": "ブルーベリー",
+    "creamY": 1.8,
+    "radius": 1.0,
+    "height": 1.83,
+    "tris": 236
+  },
+  {
+    "id": "grape",
+    "name": "ぶどう",
+    "creamY": 2.2394,
+    "radius": 1.0,
+    "height": 2.4175,
+    "tris": 719
+  },
+  {
+    "id": "raspberry",
+    "name": "ラズベリー",
+    "creamY": 1.7479,
+    "radius": 1.0,
+    "height": 1.8864,
+    "tris": 2096
+  },
+  {
+    "id": "donut",
+    "name": "ドーナツ",
+    "creamY": 0.6337,
+    "radius": 1.0,
+    "height": 0.6699,
+    "tris": 2472
+  },
+  {
+    "id": "macaron",
+    "name": "マカロン",
+    "creamY": 0.8795,
+    "radius": 1.0,
+    "height": 0.8795,
+    "tris": 2976
+  },
+  {
+    "id": "tart",
+    "name": "フルーツタルト",
+    "creamY": 0.3385,
+    "radius": 1.0,
+    "height": 0.5935,
+    "tris": 2754
+  },
+  {
+    "id": "eclair",
+    "name": "エクレア",
+    "creamY": 0.4854,
+    "radius": 1.0,
+    "height": 0.4971,
+    "tris": 2786
+  },
+  {
+    "id": "pancake",
+    "name": "パンケーキ",
+    "creamY": 0.6631,
+    "radius": 1.0,
+    "height": 0.7449,
+    "tris": 1632
+  },
+  {
+    "id": "shortcake",
+    "name": "いちごのケーキ",
+    "creamY": 0.6607,
+    "radius": 1.0,
+    "height": 0.9531,
+    "tris": 1676
+  },
+  {
+    "id": "cookie",
+    "name": "クッキー",
+    "creamY": 0.2538,
+    "radius": 1.0,
+    "height": 0.3198,
+    "tris": 1262
+  },
+  {
+    "id": "parfait",
+    "name": "いちごパフェ",
+    "creamY": 1.5539,
+    "radius": 1.0,
+    "height": 2.0824,
+    "tris": 2200
+  },
+  {
+    "id": "strawberry",
+    "name": "いちご",
+    "creamY": 1.4326,
+    "radius": 1.0,
+    "height": 1.6269,
+    "tris": 2260
+  }
+]
