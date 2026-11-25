@@ -45,6 +45,17 @@ game/
 
 公開先の `/game/` をブラウザで開きます。公開サーバーは静的ファイルを配信できれば十分です。初回は読み込みアニメーションが表示され、お菓子とマシーンのモデルがそろうとタイトルに切り替わります。
 
+## GitHub Pagesでの公開
+
+`main` にpushすると [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) がテストとビルドを実行し、`dist/` をGitHub Pagesへ配信します。公開先は <https://askdkc.github.io/web-kanpeki-cream/> です。手動で再配信するときは、GitHubのActions画面で「Deploy to GitHub Pages」を選び「Run workflow」を実行します。
+
+リポジトリ側の初回設定は2つだけです。
+
+1. Settings → Pages → Build and deployment → Source を **GitHub Actions** にします。
+2. 初回の実行を待ちます。`github-pages` 環境が作られ、公開URLが表示されます。
+
+`vite.config.ts` は `base: './'` なので、`/web-kanpeki-cream/` のようなサブパスでもモデルと音声を読み込めます。独自ドメインを使う場合も、この設定のままで公開できます。
+
 ## 開発とテスト
 
 ```sh
