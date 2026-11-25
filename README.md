@@ -49,10 +49,7 @@ game/
 
 `main` にpushすると [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) がテストとビルドを実行し、`dist/` をGitHub Pagesへ配信します。公開先は <https://askdkc.github.io/web-kanpeki-cream/> です。手動で再配信するときは、GitHubのActions画面で「Deploy to GitHub Pages」を選び「Run workflow」を実行します。
 
-リポジトリ側の初回設定は2つだけです。
-
-1. Settings → Pages → Build and deployment → Source を **GitHub Actions** にします。
-2. 初回の実行を待ちます。`github-pages` 環境が作られ、公開URLが表示されます。
+このリポジトリでは Settings → Pages → Build and deployment → Source を **GitHub Actions** に設定済みです。フォークして公開する場合は、同じ画面でSourceを **GitHub Actions** に切り替えてから `main` にpushしてください。初回の実行が終わると `github-pages` 環境が作られ、公開URLが表示されます。
 
 `vite.config.ts` は `base: './'` なので、`/web-kanpeki-cream/` のようなサブパスでもモデルと音声を読み込めます。独自ドメインを使う場合も、この設定のままで公開できます。
 
